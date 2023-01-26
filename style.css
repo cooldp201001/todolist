@@ -1,0 +1,176 @@
+body {
+    background-color: black;
+}
+
+* {
+
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    font-size: 5vh;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+
+}
+
+input[ type=text]:focus {
+    outline: none;
+
+}
+
+h4 {
+
+    color: #0a2351;
+    font-size: 4vh;
+}
+
+ul {
+    width: 100%;
+    text-align: center;
+    font-size: 3vw;
+
+}
+
+li {
+    width: 80%;
+    display: flex;
+
+    padding: 1vh;
+    list-style-type: none;
+
+
+}
+
+.container {
+
+    background-color: ;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 6vh;
+    width: 70vw;
+    border-radius: 0.5vw;
+    box-shadow: 1vw 2vh 2vw grey;
+
+}
+
+#upper_section {
+    margin: 3vh;
+    height: 20vh;
+    background-color: #1CAC78;
+    border-radius: 0.5vw;
+
+
+}
+
+
+#lower_section {
+    background-color: darkcyan;
+    border-radius: 0.5vw;
+}
+
+
+
+#input {
+    display: flex;
+    height: 6vh;
+}
+
+#input_text {
+    font-size: 2.5vh;
+    padding: 1vh;
+    background-color: ;
+    height: 100%;
+    margin: auto;
+    width: 80%
+
+}
+
+#add_btn {
+    margin-right: 0.5vw;
+    border-radius: 0.5vw;
+    padding: 1vh;
+    height: 100%;
+    font-size: 1.5vw;
+}
+
+#add_btn:hover {
+    color: white;
+    background-color: black;
+    transition: 1S;
+    cursor: pointer;
+
+}
+
+.modify-buttons {
+    padding: 1vw;
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+    
+}
+
+ul>div {
+    padding: 1vh;
+    margin: 1vh;
+    background: orange;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-radius: 2vh;
+}
+
+i {
+    font-size: 3vw;
+    cursor: pointer;
+}
+
+.done_task {
+    color: silver;
+    text-decoration: black line-through;
+    transition: color 0.5s;
+
+}
+#editContainer{
+    padding: 1.5vw;
+    height: 8vw;
+    margin: 1vh;
+    background-color: wheat;
+    display: none;
+    justify-content: space-between;
+}
+#edit_input{
+    padding: 1vh;
+     background-color: silver;
+    width: 85%;
+  border-radius: 1vw;
+  font-size: 3vh;
+  
+}
+  #editButton{
+     border-radius: 1vw;
+    padding: 0.5vw;
+     background-color:#aaf0d1 ;  
+     width: 10%;
+     font-size: 2vw;
+ 
+}
+#editButton:hover{
+    border-radius: 1vw;
+   font-weight: bold;
+    background-color:#587246;
+    transition: all 0.5s;  
+    color: white;
+
+}
+
+

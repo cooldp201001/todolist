@@ -1,0 +1,28 @@
+ul > div{
+    width: 50vw;
+    margin: 1vh;
+    background:skyblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+ul{
+    background-color:wheat ;
+
+}
+li{
+    list-style-type: none;
+    width: 90%;
+    font-size: 4vh;
+}
+.modify-buttons{
+    padding: 0.5vh;
+    background-color: red;
+    font-size: 4vh;
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+}
+.font{
+    font-size: 4vh;
+ }
